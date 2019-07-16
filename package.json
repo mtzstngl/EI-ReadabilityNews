@@ -1,0 +1,13 @@
+{
+  "name": "EI-ReadabilityNews",
+  "version": "0.0.0",
+  "description": "OTH AW EI-ReadabilityNews module",
+  "main": "EI-ReadabilityNews.js",
+  "author": {
+    "name": "Matthias Stangl"
+  },
+  "dependencies": {
+    "readability": "mozilla/readability",
+    "jsdom": "*"
+  }
+}

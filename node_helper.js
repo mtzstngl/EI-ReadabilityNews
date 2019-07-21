@@ -2,6 +2,11 @@ var NodeHelper = require("node_helper");
 var JSDOM = require("jsdom").JSDOM;
 var Readability = require("readability");
 
+/**
+ * Erhält mittels "ARTICLE_INFO_RESPONSE" Benachrichtigung den aktuellen Artikel.
+ * Ruft den Artikel mittels jsdom ab und verwendet readability, um ihn leichter lesbar zu machen.
+ * Sendet das Ergebnis zurück an EI-ReadabilityNews.js
+ */
 module.exports = NodeHelper.create({
 
 	// System is ready to boot

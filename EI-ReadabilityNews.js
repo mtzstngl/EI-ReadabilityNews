@@ -1,5 +1,13 @@
 "use strict";
 
+/**
+ * Zeigt die readability-Version eines Artikels an.
+ * -> Verwendet die mozilla/readability Bibliothek.
+ * Benötigt das Modul MMM-News-QR um zu funktionieren.
+ * Wartet auf die "ARTICLE_INFO_RESPONSE" Benachrichtigung und leitet es an node_helper.js weiter.
+ * node_helper.js ruft den Artikel ab und sendet das Ergebnis zurück ("ARTICLE" Benachrichtigung).
+ * -> Zeigt das Ergebnis an.
+ */
 Module.register("EI-ReadabilityNews",{
 
 	defaults: {
